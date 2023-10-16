@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+    class="short-logo"
+    rel="shortcut icon"
+    type="x-icon"
+    href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnReiVQEyA8ZqMjy56Gpu3512vj-u3LxinaQ&usqp=CAU"
+  />
+
+  <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Techno-web</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+  
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Biryani:wght@300&family=Dancing+Script:wght@500&family=Gabarito:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <header id="home">
+      <div class="nav">
+      <nav id="navbar" class="navbar navbar-expand-lg px-2 border-bottom">
+        
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2 text fw-bold" href="#"
+            >Techno-<span class="text-info">web</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-5 text text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#services">Music & Camera Setup</a></li>
+                  <li><a class="dropdown-item" href="#services">Gaming Arena</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#services">Other Interesting Gadget</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Our Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input 
+                class="form-control me-2 "
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button id="search" type="submit" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="slider-img" src="https://images.pexels.com/photos/6286256/pexels-photo-6286256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="slider-img" src="https://images.unsplash.com/photo-1649425371495-aa14454d94c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="slider-img" src="https://images.unsplash.com/photo-1460667262436-cf19894f4774?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+       <section id="about" class="about">
+        <div class="container text-center ">
+            <div>
+                <h1>About us</h1>
+                <hr class=" w-25 m-auto">
+                <br>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-12">
+              <h3>Techno-web: Your Portal to the Digital Frontier</h3>
+              <p class=" text-center">Welcome to our tech-centric web platform, where innovation meets insight. We are your go-to destination for the latest developments in the world of technology. Our mission is to provide you with a comprehensive and accessible source of information, covering a wide spectrum of tech topics including emerging trends, cutting-edge gadgets, software advancements, cybersecurity, artificial intelligence, and more. Stay informed, stay inspired, and join us on this exciting journey through the digital landscape. </p>
+              
+              <a href="#" class=" mb-5 btn btn-light active" aria-current="page" >Know more</a>
+              <div class="accordion" id="accordionExample">
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Our Principles
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What's New?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Future Goals
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+              
+            </div>
+            
+           <div class="abt-img">
+            <div  class="col-sm-12 col-md-6 col-lg-6 col-12">
+               <img  src="https://img.freepik.com/premium-vector/business-education-concept_171919-1132.jpg" alt="">
+            </div>
+          </div>
+        
+       </section>
+       
+       <section id="services" class="service py-5 ">
+        
+        <div class="box text-center">
+          <div >
+            <h1>Our Services</h1>
+            <hr class=" w-25 m-auto">
+            <br>
+        </div>
+
+        <div class="row px-3">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card rounded">
+            <div class="card-body">
+              <h5 class="card-title">Cameras and Studio Setup</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary bg-primary">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div id="card-bg" class="card-body   ">
+              <h5 class="card-title ">Complete Gamming Gear</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" id="btn-bg" class="btn  text-white">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Advanced Music Studio Setup</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      
+      <div class="row px-3 my-5">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Mobiles & Tablets</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div id="card-bg" class="card-body">
+              <h5 class="card-title">Speakers</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" id="btn-bg" class="btn  text-white">View More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Laptops & Desktops</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        </div>
+    
+       </section>
+      
+
+       <section id="team" class="team px-5 text-center" >
+        <div class="container">
+          <div >
+            <h1>Our Team</h1>
+            <hr class=" w-25 m-auto">
+            <br>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card">
+              <div class="card-body">
+                <img class="photo img-fluid border border-primary" src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1727&q=80" alt="">
+                <h5 class="card-title">Sophia Davis</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card">
+              <div class="card-body">
+                <img class="photo img-fluid border border-primary" src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG1vZGVscyUyMHByb2ZpbGUlMjBtZW58ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60" alt="">
+                <h5 class="card-title">Liam Harrison</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">View Profile</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+            <div class="card">
+              <div class="card-body">
+                <img class="photo img-fluid border border-primary" src="https://images.unsplash.com/photo-1525450824786-227cbef70703?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fG1vZGVscyUyMHByb2ZpbGV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60" alt="">
+                <h5 class="card-title">Emily Johnson</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">View Profile</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div> -->
+        </section>
+
+
+<!-- 
+       <div class="size">
+        <section>
+          <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img
+                      src="https://plus.unsplash.com/premium_photo-1691030254390-aa56b22e6a45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+                      alt=""
+                    />
+                  </div>
+                  <div class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+  
+                  <div class="name-profession">
+                    <span class="name">Andrew</span>
+                    <span class="profession">Web Developer</span>
+                  </div>
+  
+                  <div class="button">
+                    <button class="aboutMe">About Me</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img
+                      src="https://images.unsplash.com/photo-1525450824786-227cbef70703?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fG1vZGVscyUyMHByb2ZpbGV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                  </div>
+  
+                  <div class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+  
+                  <div class="name-profession">
+                    <span class="name">Mohammad Shai</span>
+                    <span class="profession">UI Designer</span>
+                  </div>
+  
+                  <div class="button">
+                    <button class="aboutMe">About Me</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img
+                      src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1727&q=80"
+                      alt=""
+                    />
+                  </div>
+  
+                  <div class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+  
+                  <div class="name-profession">
+                    <span class="name">Swamy Iyar</span>
+                    <span class="profession">Software Engineer</span>
+                  </div>
+  
+                  <div class="button">
+                    <button class="aboutMe">About Me</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img
+                      src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fG1vZGVscyUyMHByb2ZpbGUlMjBtZW58ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                  </div>
+  
+                  <div class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+  
+                  <div class="name-profession">
+                    <span class="name">Ram Singh</span>
+                    <span class="profession">App Developer</span>
+                  </div>
+  
+                  <div class="button">
+                    <button class="aboutMe">About Me</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img
+                      src="https://images.unsplash.com/photo-1516195851888-6f1a981a862e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTgzfHxtb2RlbHxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                  </div>
+  
+                  <div class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+  
+                  <div class="name-profession">
+                    <span class="name">Riya Kosh</span>
+                    <span class="profession">IT Trainee</span>
+                  </div>
+  
+                  <div class="button">
+                    <button class="aboutMe">About Me</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img
+                      src="https://images.unsplash.com/photo-1512327605305-64e5ce63b346?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjQ4fHxtb2RlbHxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                  </div>
+  
+                  <div class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+  
+                  <div class="name-profession">
+                    <span class="name">Solomon David</span>
+                    <span class="profession">Python Developer</span>
+                  </div>
+  
+                  <div class="button">
+                    <button class="aboutMe">About Me</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img
+                      src="https://images.unsplash.com/photo-1514315384763-ba401779410f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1883&q=80"
+                      alt=""
+                    />
+                  </div>
+  
+                  <div class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+  
+                  <div class="name-profession">
+                    <span class="name">Mariyappan</span>
+                    <span class="profession">Manager</span>
+                  </div>
+  
+                  <div class="button">
+                    <button class="aboutMe">About Me</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img
+                      src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODh8fG1vZGVsfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                  </div>
+  
+                  <div class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+  
+                  <div class="name-profession">
+                    <span class="name">Sneha</span>
+                    <span class="profession">Software Tester</span>
+                  </div>
+  
+                  <div class="button">
+                    <button class="aboutMe">About Me</button>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img
+                      src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTAxfHxtb2RlbHxlbnwwfDF8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                      alt=""
+                    />
+                  </div>
+  
+                  <div class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+  
+                  <div class="name-profession">
+                    <span class="name">Sangavi</span>
+                    <span class="profession">Web Developer</span>
+                  </div>
+  
+                  <div class="button">
+                    <button class="aboutMe">About Me</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </section>
+      </div> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

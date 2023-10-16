@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.short-logo {
+  background: none;
+}
+body::-webkit-scrollbar {
+  overflow-x: hidden;
+  display: none;
+}
+
+.navbar {
+  background-color: rgb(221, 216, 216);
+  width: 100%;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  background-color: rgb(221, 216, 216);
+  width: 100%;
+  z-index: 1000;
+}
+#search {
+  color: white;
+  background-color: rgb(57, 64, 57);
+  height: 35px;
+  width: 150px;
+  border: none;
+  z-index: 10;
+}
+
+.about {
+  margin-top: 35%;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 90vh;
+  background-color: transparent;
+
+  background-image: url(https://images.pexels.com/photos/1526/dark-blur-blurred-gradient.jpg?cs=srgb&dl=pexels-splitshire-1526.jpg&fm=jpg);
+  background-size: cover;
+}
+
+.slider-img {
+  height: 90vh;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.abt-img {
+  position: relative;
+  margin-left: 55%;
+  bottom: 470px;
+}
+
+#btn-bg {
+  background-color: grey;
+}
+
+#card-bg {
+  background-color: rgb(216, 216, 216);
+}
+
+.box {
+  padding-top: 10px;
+  height: 50rem;
+  background-color: transparent;
+  background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-position: center;
+}
+
+.box h1 {
+  margin-top: 60px;
+  color: white;
+}
+.team {
+  margin-top: 15%;
+}
+
+.photo {
+  max-height: 200px;
+  min-width: 196px;
+  border-radius: 50%;
+  object-fit: contain;
+}
