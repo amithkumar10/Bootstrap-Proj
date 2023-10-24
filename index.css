@@ -88,3 +88,19 @@ body::-webkit-scrollbar {
   border-radius: 50%;
   object-fit: contain;
 }
+
+.slider-inner {
+  width: 100%;
+  height: 51vh;
+  background-color: transparent;
+}
+
+.slider-pic {
+  width: 60%;
+  height: 70vh;
+}
+
+.card-body {
+  background-color: rgba(62, 57, 57, 0.337);
+}
+
