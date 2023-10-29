@@ -104,3 +104,40 @@ body::-webkit-scrollbar {
   background-color: rgba(62, 57, 57, 0.337);
 }
 
+#connect-text{
+  padding-top: 100px;
+}
+
+.contact {
+  margin-top: 16rem;
+  background-color: rgb(217, 227, 254);
+  height: 820px;
+}
+}
+
+#contact-bg {
+  background-color: rgb(166, 166, 204);
+}
+
+.contact-img {
+  border: none;
+  height: 640px;
+  width: 900px;
+  margin-left: 20%;
+  margin-bottom: 35%;
+}
+
+#form {
+  margin-top: 10%;
+}
+
+.footer {
+  background-color: #232354;
+  color: #fff;
+  text-align: center;
+  padding: 35px;
+  position: relative;
+  bottom: auto;
+  width: 100%;
+}
+
